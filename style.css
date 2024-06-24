@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('./Grass_Background.jpg');
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10vh;
+    
+} 
+
+.dogImg{
+    height: 60vh;
+}
+
+.txtfluf{
+    color: rgb(0, 140, 255);
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 3.5em;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+.fetchBtn{
+    background-color: rgb(50, 190, 255);
+    color:  rgb(0, 140, 255);
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 2em;
+    border-radius: 15%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
